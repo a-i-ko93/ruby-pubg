@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    pubg (0.0.1)
+    pubg (0.0.6)
       faraday
       faraday_middleware
 

@@ -21,5 +21,11 @@ end
 * Get player by nickname, for example:
 
 ```ruby
-Pubg::Player.get('PuhovikPushistik')
+Pubg::Player.by_nickname('PuhovikPushistik')
+```
+
+* Get player by Steam ID, for example:
+
+```ruby
+Pubg::Player.by_steam_id('76561198278451481')
 ```
