@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    pubg (0.0.7)
+    pubg (0.1.0)
       faraday
       faraday_middleware
       recursive-open-struct

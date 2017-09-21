@@ -36,4 +36,4 @@ Spec files are located under `/spec` directory. You can run them using `rspec` c
 
 ## License
 
-* This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/a-i-ko93/ruby-pubg/blob/master/LICENSE.md) file for details
+This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/a-i-ko93/ruby-pubg/blob/master/LICENSE.md) file for details
