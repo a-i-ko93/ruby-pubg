@@ -8,6 +8,7 @@ module Pubg
   end
 end
 
+require 'recursive-open-struct'
 require 'faraday'
 require 'faraday_middleware'
 

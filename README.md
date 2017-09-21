@@ -5,7 +5,7 @@
 * Add to `Gemfile`
 
 ```ruby
-gem 'pubg', git: 'https://github.com/a-i-ko93/ruby-pubg.git'
+gem 'pubg'
 ```
 
 * Configure gem with
@@ -29,3 +29,11 @@ Pubg::Player.by_nickname('PuhovikPushistik')
 ```ruby
 Pubg::Player.by_steam_id('76561198278451481')
 ```
+
+## Running the tests
+
+Spec files are located under `/spec` directory. You can run them using `rspec` command.
+
+## License
+
+* This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/a-i-ko93/ruby-pubg/blob/master/LICENSE.md) file for details

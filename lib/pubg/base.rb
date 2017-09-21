@@ -1,8 +1,8 @@
 module Pubg
   class Base
-    class << self
-      BASE_URL = 'https://pubgtracker.com/api/'.freeze
+    BASE_URL = 'https://pubgtracker.com/api/'.freeze
 
+    class << self
       def client
         @client ||= Faraday.new(
           url: BASE_URL,

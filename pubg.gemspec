@@ -12,6 +12,12 @@ Gem::Specification.new do |s|
 
   s.files = Dir['lib/**/*.rb']
 
+  s.add_runtime_dependency 'recursive-open-struct'
   s.add_runtime_dependency 'faraday'
   s.add_runtime_dependency 'faraday_middleware'
+
+
+  s.add_development_dependency 'rspec'
+  s.add_development_dependency 'webmock'
+  s.add_development_dependency 'pry'
 end
